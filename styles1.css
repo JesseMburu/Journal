@@ -1,0 +1,102 @@
+#topNav{
+    height:47px;
+    background-color: rgb(36, 36, 36);
+font-family:"Comic Sans MS";
+border: none;
+border-radius: 5cm;
+}
+#topNav a{
+ color: rgb(244, 197, 148);
+ text-decoration: none;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ padding-right:2% ;
+ padding-left: 2%;
+ float: right;
+ 
+}
+ 
+#topNav a:hover{
+    color: rgb(225, 225, 225);
+}
+#topNav a:active{
+    color:brown;
+    
+}
+#homeTitle{
+    margin-top: 3vw;
+height:50px;
+width:100%;
+text-align: center;
+font-family: "Comic Sans MS";
+font-size: 4vw;
+}
+#homeCont{
+    margin-top: 5vw;
+    width:50%;
+    margin-left:20% ;
+    padding-left:5% ;
+    padding-right:5% ;
+    margin-right:20% ;
+    font-size: 1.7vw;
+    font-family: "Comic Sans MS";
+}
+#try{
+    text-align: center;
+    margin-top: 5vw;
+}
+#try a{
+    text-decoration: underline;
+    color: rgb(103, 0, 0);
+    font-size: 3vw;
+    font-family:"Comic Sans MS" ;
+}
+#signup,#signin{
+    margin-top: 5vw;
+    font-family: "Comic Sans MS";
+    font-size: 1.1vw;
+    width:50%;
+    margin-left:20% ;
+    padding-left:5% ;
+    padding-right:5% ;
+    margin-right:20% ;
+}
+input[type=text],input[type=password]{
+    font-family: "Comic Sans MS";
+    width:45%;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    font-family: "Comic Sans MS";
+}
+input[type=submit]{
+    font-family: "Comic Sans MS";
+    width:15%;
+    
+    border: none;
+    border-radius: 5px;
+}
+#logout{
+    float:right;
+    width:30%;
+}
+#viewTable{
+    margin-top: 5vw;
+    font-family: "Comic Sans MS";
+    font-size: 1.1vw;
+    
+    
+}
+table{
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+tr{
+    border: solid;
+}
+td,th{
+    padding-left:5% ;
+    padding-right:5% ;
+}
